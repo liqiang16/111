@@ -13,7 +13,12 @@ sender = SENDER  # 你的QQ邮箱 机密文件
 receiver = RECEIVER  # 接收者邮箱 机密文件
 
 subject = 'Python邮件测试'  # 邮件主题
-body = '这是使用Python通过QQ邮箱发送的邮件，哈哈哈'  # 邮件正文
+body = '''这是使用Python通过QQ邮箱发送的邮件，哈哈哈。
+测试通过，注意事项：
+1 要设置repository secret 设置发件人 授权码 收件人等到 action的 repository secret
+2 修改正文内容
+3 rerun的时候 要新建一个job 不能一直re-run 那个failed job。
+'''  # 邮件正文
 
 # 设置 SMTP 服务器及端口号
 smtp_server = 'smtp.qq.com'
