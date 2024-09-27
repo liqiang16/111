@@ -1,6 +1,8 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
+import os
+
 
 # 注意，邮箱 以及接受邮箱还有邮箱验证码，应该设置在App Secret，而不是公开到仓库里面。
 SENDER = os.environ.get("SENDER");
