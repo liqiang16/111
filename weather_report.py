@@ -128,6 +128,13 @@ def weather_report(this_city):
     send_weather(access_token, weather)
 
 
+def# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+   "birthday1": {"name": "##", "汤圆": "2005-05-23"},
+   # 生日2
+   "birthday2": {"name": "##", "小雨": "2008-01-01"},
+   # 在一起的日子，格式同上，暂不不支持农历
+   "love_date": "2024-11-21",
+
 
 if __name__ == '__main__':
-    weather_report("淄博")
+    weather_report("杭州")
